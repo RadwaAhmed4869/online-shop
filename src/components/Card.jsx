@@ -33,7 +33,7 @@ export default function Card({ children, plan, btnStyles, shadow = false }) {
                   ></img>
                   <small
                     className="d-inline fw-bold"
-                    style={{ "font-size": "12px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     {feature}
                   </small>

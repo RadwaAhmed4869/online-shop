@@ -44,7 +44,9 @@ export default function Price() {
       <div className="container-lg">
         <div className="text-center pt-5">
           <h2 className="fw-bold">Simple pricing for everyone</h2>
-          <small className="text-mutted">Choose a plan and get started</small>
+          <small className="text-muted" style={{ fontSize: "12px" }}>
+            Choose a plan and get started
+          </small>
         </div>
         <div className="row m-4 align-items-center justify-content-between">
           <Card plan={personalPlan} btnStyles="bg-opacity-10" />

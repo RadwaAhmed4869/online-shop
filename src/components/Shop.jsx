@@ -8,9 +8,9 @@ import ShopProduct from "./ShopProduct";
 
 export default function Shop() {
   return (
-    <div class="container-lg px-xxl-5">
+    <div className="container-lg px-xxl-5">
       <div className="text-center p-5">
-        <div className="row  justify-content-between">
+        <div className="row justify-content-between">
           <div className="col">
             <ShopProduct image={product1} btnCaption="Shop Hoodies" />
             <ShopProduct image={product2} btnCaption="Shop Tanktop" />

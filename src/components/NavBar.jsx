@@ -71,7 +71,7 @@ export default function NavBar() {
           </ul>
 
           <a className="navbar-brand align-items-center" href="#">
-            <img src={brandLogo}></img>
+            <img src={brandLogo} height="52px"></img>
           </a>
 
           <form className="d-flex ms-auto" role="search">
