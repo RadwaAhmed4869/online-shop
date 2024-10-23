@@ -1,12 +1,19 @@
 import featureIcon from "../assets/feature-icon.png";
 
-export default function Card({ children, plan, btnStyles }) {
-  const btnClasses = "btn bg-primary btn-lg w-100 mt-3 fs-6 fw-bold " + btnStyles;
+export default function Card({ children, plan, btnStyles, shadow = false }) {
+  const btnClasses =
+    "btn bg-primary btn-lg w-100 mt-3 fs-6 fw-bold " + btnStyles;
+
+  let cardClasses = "card border-0";
+
+  if (shadow) {
+    cardClasses += " shadow";
+  }
 
   return (
     <div className="col-12 col-sm-6 col-lg-4 px-5">
-      <div className="card border-0">
-        <div className="card-body text-center p-3">
+      <div className={cardClasses}>
+        <div className="card-body text-center p-4">
           <div className="pb-4 d-flex flex-row-reverse">{children}</div>
           <h4 className="card-title fs-6">{plan.name}</h4>
           <div className=" my-4">
@@ -24,9 +31,7 @@ export default function Card({ children, plan, btnStyles }) {
                     width={24}
                     src={featureIcon}
                   ></img>
-                  <small className="d-inline">
-                    {feature}
-                  </small>
+                  <small className="d-inline">{feature}</small>
                 </span>
               );
             })}

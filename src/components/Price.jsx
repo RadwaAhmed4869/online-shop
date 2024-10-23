@@ -40,20 +40,20 @@ const enterprisePlan = {
 
 export default function Price() {
   return (
-    <section id="pricing" className="bg-purple bg-opacity-25 py-4">
+    <section id="pricing" className="bg-purple bg-opacity-10 py-4">
       <div className="container-lg">
         <div className="text-center pt-5">
           <h2 className="fw-bold">Simple pricing for everyone</h2>
-          <p className="text-mutted">Choose a plan and get started</p>
+          <small className="text-mutted">Choose a plan and get started</small>
         </div>
-        <div className="row m-5 align-items-center justify-content-between">
-          <Card plan={personalPlan} btnStyles="bg-opacity-25" />
-          <Card plan={professionalPlan} btnStyles="text-light">
+        <div className="row m-4 align-items-center justify-content-between">
+          <Card plan={personalPlan} btnStyles="bg-opacity-10" />
+          <Card plan={professionalPlan} btnStyles="text-light" shadow>
             <small className="bg-dark text-light rounded py-1 px-3">
               Popular
             </small>
           </Card>
-          <Card plan={enterprisePlan} btnStyles="bg-opacity-25" />
+          <Card plan={enterprisePlan} btnStyles="bg-opacity-10" />
         </div>
       </div>
     </section>
