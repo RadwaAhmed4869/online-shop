@@ -2,7 +2,7 @@ import brandLogo from "../assets/mina-space.png";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar sticky-top bg-white navbar-expand-lg ">
       <div className="container-lg px-lg-5">
         <button
           className="navbar-toggler"
@@ -30,7 +30,7 @@ export default function NavBar() {
             <li className="nav-item">
               <a
                 className="nav-link text-uppercase fw-bold"
-                href="#"
+                href="#minaspace"
                 style={{ fontSize: "11.5px" }}
               >
                 Minaspace
@@ -51,19 +51,19 @@ export default function NavBar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="#"
+                    href="#shop"
                     style={{ fontSize: "11.5px" }}
                   >
-                    Action
+                    Shop
                   </a>
                 </li>
                 <li>
                   <a
                     className="dropdown-item"
-                    href="#"
+                    href="#products"
                     style={{ fontSize: "11.5px" }}
                   >
-                    Another action
+                    Featured products
                   </a>
                 </li>
                 <li>
@@ -72,10 +72,10 @@ export default function NavBar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="#"
+                    href="#pricing"
                     style={{ fontSize: "11.5px" }}
                   >
-                    Something else here
+                    Pricing
                   </a>
                 </li>
               </ul>
@@ -83,6 +83,7 @@ export default function NavBar() {
             <li className="nav-item">
               <a
                 className="nav-link text-uppercase fw-bold"
+                href="#"
                 style={{ fontSize: "11.5px" }}
               >
                 Blog
@@ -91,6 +92,7 @@ export default function NavBar() {
             <li className="nav-item">
               <a
                 className="nav-link text-uppercase fw-bold"
+                href="#"
                 style={{ fontSize: "11.5px" }}
               >
                 Contact
@@ -99,7 +101,7 @@ export default function NavBar() {
           </ul>
 
           <a className="navbar-brand align-items-center" href="#">
-            <img src={brandLogo} height="48px"></img>
+            <img className="mb-2" src={brandLogo} height="48px"></img>
           </a>
 
           <form className="d-flex ms-auto" role="search">

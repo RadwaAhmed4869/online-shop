@@ -1,6 +1,6 @@
 export default function ({ image, header, paragraph, btnCaption }) {
   return (
-    <div className="col-12 col-lg-6 position-relative">
+    <section id="minaspace" className="col-12 col-lg-6 position-relative">
       <div
         className="position-absolute"
         style={{
@@ -29,6 +29,6 @@ export default function ({ image, header, paragraph, btnCaption }) {
         </button>
       </div>
       <img className="w-100 pb-4" src={image}></img>
-    </div>
+    </section>
   );
 }

@@ -3,7 +3,8 @@ import { DUMMY_PRODUCTS } from "../dummy-products";
 
 export default function Products() {
   return (
-    <div
+    <section
+      id="products"
       className="container-lg py-5 mb-5"
       style={{ paddingRight: "5.5rem", paddingLeft: "5.5rem" }}
     >
@@ -21,6 +22,6 @@ export default function Products() {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
