@@ -8,6 +8,7 @@ import Banner from "./components/Banner.jsx";
 
 import leftBanner from "./assets/left-banner.png";
 import rightBanner from "./assets/right-banner.png";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ creative works"
       <Products />
 
       <Price />
+
+      <Footer />
     </>
   );
 }
