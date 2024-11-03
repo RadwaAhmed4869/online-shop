@@ -1,4 +1,6 @@
 import brandLogo from "../assets/mina-space.png";
+import star from "../assets/star.png";
+import cart from "../assets/bag.png";
 
 export default function NavBar() {
   return (
@@ -112,6 +114,43 @@ export default function NavBar() {
               aria-label="Search"
             />
           </form>
+
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+            <li className="nav-item">
+              <a className="nav-link position-relative" href="#">
+                <img src={star} style={{ width: "20px", height: "20px" }} />
+                <p
+                  className="position-absolute rounded-circle text-white bg-primary text-center"
+                  style={{
+                    width: "23px",
+                    height: "23px",
+                    top: "-10%",
+                    left: "55%",
+                    zIndex: "2",
+                  }}
+                >
+                  0
+                </p>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link position-relative" href="#">
+                <img src={cart} style={{ width: "20px", height: "20px" }} />
+                <p
+                  className="position-absolute rounded-circle text-white bg-primary text-center"
+                  style={{
+                    width: "23px",
+                    height: "23px",
+                    top: "-10%",
+                    left: "55%",
+                    zIndex: "2",
+                  }}
+                >
+                  0
+                </p>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

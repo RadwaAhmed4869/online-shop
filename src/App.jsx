@@ -10,11 +10,12 @@ import leftBanner from "./assets/left-banner.png";
 import rightBanner from "./assets/right-banner.png";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
+import Quality from "./components/quality.jsx";
 
 function App() {
   return (
     <>
-    <Header />
+      <Header />
       <NavBar />
 
       <div className="row g-2">
@@ -35,6 +36,8 @@ creative works"
           btnCaption="Shop Now"
         />
       </div>
+
+      <Quality />
 
       <Shop />
 

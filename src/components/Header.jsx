@@ -4,14 +4,14 @@ import fireHeading from "../assets/fire-heading.png";
 
 export default function Header(){
     return (
-    <header class=" pt-2 bg-light">
-        <div class="container">
-          <div class="d-flex flex-wrap justify-content-around">
-            <ul class="nav list-unstyled d-flex gap-1">
-                <li class="ms-3"><a class="text-line" href="#"><i class="bi bi-twitter"></i></a></li>
-                <li class="ms-3"><a class="text-line" href="#"><i class="bi bi-facebook"></i></a></li>
-                <li class="ms-3"><a class="text-line" href="#"><i class="bi bi-instagram"></i></a></li>
-                <li class="ms-3"><a class="text-line" href="#"><i class="bi bi-youtube"></i></a></li>
+    <header className=" pt-2 bg-light">
+        <div className="container">
+          <div className="d-flex flex-wrap justify-content-around">
+            <ul className="nav list-unstyled d-flex gap-1">
+                <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-twitter"></i></a></li>
+                <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-facebook"></i></a></li>
+                <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-instagram"></i></a></li>
+                <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-youtube"></i></a></li>
             </ul>
             
             <div className="d-flex gap-1 align-items-baseline">
@@ -19,9 +19,9 @@ export default function Header(){
                 <p className="fw-bold">Free shipping on all U.S. orders $50+</p>
             </div>
     
-            <div class="text-end">
-              <button type="button" class="btn btn-sm px-3 fw-bold">Login</button>
-              <button type="button" class="btn btn-sm bg-dark text-white px-3">Sign-up</button>
+            <div className="text-end">
+              <button type="button" className="btn btn-sm px-3 fw-bold">Login</button>
+              <button type="button" className="btn btn-sm bg-dark text-white px-3">Sign-up</button>
             </div>
           </div>
         </div>
