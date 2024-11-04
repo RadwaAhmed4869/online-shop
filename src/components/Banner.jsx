@@ -1,15 +1,7 @@
 export default function ({ image, header, paragraph, btnCaption }) {
   return (
     <section id="minaspace" className="col-12 col-lg-6 position-relative">
-      <div
-        className="position-absolute"
-        style={{
-          top: "51%",
-          left: "21%",
-          transform: "translate(-50%)",
-          zIndex: "2",
-        }}
-      >
+      <div className="position-absolute top-50 ms-5">
         <h2
           className="fw-bold"
           style={{ fontSize: "27px", whiteSpace: "pre-wrap" }}
