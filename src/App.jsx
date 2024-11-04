@@ -10,7 +10,7 @@ import leftBanner from "./assets/left-banner.png";
 import rightBanner from "./assets/right-banner.png";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
-import Quality from "./components/quality.jsx";
+import Quality from "./components/Quality.jsx";
 
 function App() {
   return (
