@@ -11,6 +11,7 @@ import rightBanner from "./assets/right-banner.png";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import Quality from "./components/Quality.jsx";
+import Carousel from "./components/Carousel.jsx";
 
 function App() {
   return (
@@ -44,6 +45,8 @@ creative works"
       <Products />
 
       <Price />
+
+      <Carousel />
 
       <Footer />
     </>
