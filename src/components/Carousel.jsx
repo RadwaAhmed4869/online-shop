@@ -1,12 +1,14 @@
 import ReviewCard from "./ReviewCard";
 import { Reviews } from "../data/Reviews.js";
 
+import backgroundImage from "../assets/cbg.png";
+
 export default function Carousel() {
   return (
     <div
       className="py-5"
       style={{
-        backgroundImage: "url('/src/assets/cbg.png')",
+        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
