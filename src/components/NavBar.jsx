@@ -5,7 +5,7 @@ import cart from "../assets/bag.png";
 export default function NavBar() {
   return (
     <nav className="navbar sticky-top bg-white navbar-expand-lg ">
-      <div className="container-lg px-lg-5">
+      <div className="container-lg px-lg-4">
         <button
           className="navbar-toggler"
           type="button"
@@ -103,7 +103,7 @@ export default function NavBar() {
           </ul>
 
           <a className="navbar-brand align-items-center" href="#">
-            <img className="mb-2" src={brandLogo} height="48px"></img>
+            <img className="mb-2" src={brandLogo} height="42px"></img>
           </a>
 
           <form className="d-flex ms-auto" role="search">
@@ -115,7 +115,7 @@ export default function NavBar() {
             />
           </form>
 
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+          <ul className="navbar-nav mb-2 mb-lg-0 gap-3">
             <li className="nav-item">
               <a className="nav-link position-relative" href="#">
                 <img src={star} style={{ width: "20px", height: "20px" }} />

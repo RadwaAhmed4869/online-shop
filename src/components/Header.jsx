@@ -5,8 +5,8 @@ import fireHeading from "../assets/fire-heading.png";
 export default function Header(){
     return (
     <header className=" pt-2 bg-light">
-        <div className="container">
-          <div className="d-flex flex-wrap justify-content-around">
+        <div className="container-lg">
+          <div className="d-flex flex-wrap px-lg-4 justify-content-between">
             <ul className="nav list-unstyled d-flex gap-1">
                 <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-twitter"></i></a></li>
                 <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-facebook"></i></a></li>
