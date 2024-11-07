@@ -1,10 +1,10 @@
 export default function Product({ product }) {
   return (
-    <div className="col col-xxl-3">
+    <div className="col col-md-6 col-lg-4 col-xxl-3">
       <img
-        className="p-4 rounded-"
+        className="p-4 rounded-5"
         src={product.image}
-        height="396"
+        height="70%"
         // width="297px"
       ></img>
       <p className="fw-bold" style={{ fontSize: "15px" }}>

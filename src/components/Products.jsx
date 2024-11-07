@@ -16,7 +16,7 @@ export default function Products() {
       </div>
 
       <div className="text-center">
-        <div className="row justify-content-between">
+        <div className="row justify-content-around">
           {DUMMY_PRODUCTS.map((product) => {
             return <Product key={product.id} product={product} />;
           })}
