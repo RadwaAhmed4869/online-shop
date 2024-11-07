@@ -48,7 +48,7 @@ export default function Price() {
             Choose a plan and get started
           </small>
         </div>
-        <div className="row m-4 align-items-center justify-content-between">
+        <div className="row m-4 gap-2 gap-sm-0 align-items-center justify-content-center justify-content-sm-between">
           <Card plan={personalPlan} btnStyles="bg-opacity-10" />
           <Card plan={professionalPlan} btnStyles="text-light" shadow>
             <small className="bg-dark text-light rounded py-1 px-3">

@@ -10,17 +10,17 @@ export default function Shop() {
   return (
     <section id="shop" className="container-lg px-xxl-5">
       <div className="text-center p-5">
-        <div className="row justify-content-between">
-          <div className="col-8 col-lg-3">
-            <ShopProduct image={product1} btnCaption="Shop Hoodies" />
-            <ShopProduct image={product2} btnCaption="Shop Tanktop" />
+        <div className="row justify-content-center justify-content-md-between">
+          <div className="col-8 col-md-3">
+            <ShopProduct image={product1} btnCaption="Shop Hoodies" topPercentage="67%" />
+            <ShopProduct image={product2} btnCaption="Shop Tanktop" topPercentage="67%" />
           </div>
-          <div className="col-8 col-lg-6">
-            <ShopProduct image={product3} btnCaption="Shop T-Shirt" />
+          <div className="col-8 col-md-6">
+            <ShopProduct image={product3} btnCaption="Shop T-Shirt" topPercentage="83%" />
           </div>
-          <div className="col-8 col-lg-3">
-            <ShopProduct image={product4} btnCaption="Shop Sweater" />
-            <ShopProduct image={product5} btnCaption="Shop Designer" />
+          <div className="col-8 col-md-3">
+            <ShopProduct image={product4} btnCaption="Shop Sweater" topPercentage="67%" />
+            <ShopProduct image={product5} btnCaption="Shop Designer" topPercentage="67%" />
           </div>
         </div>
       </div>

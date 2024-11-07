@@ -1,16 +1,16 @@
-export default function ShopProduct({ image, btnCaption }) {
+export default function ShopProduct({ image, btnCaption, topPercentage }) {
   return (
     <div className="position-relative">
       <button
-        className="position-absolute rounded shadow border-0 bg-white py-2 px-4"
+        className="btn btn-sm position-absolute rounded shadow border-0 bg-white"
         style={{
-          top: "70%",
+          top: `${topPercentage}`,
           left: "50%",
           transform: "translate(-50%)",
           zIndex: "2",
         }}
       >
-        <small className="fw-bold" style={{ fontSize: "11.5px" }}>
+        <small className="fw-bold text-nowrap py-2 px-2" style={{ fontSize: "11.5px" }}>
           {btnCaption}
         </small>
       </button>

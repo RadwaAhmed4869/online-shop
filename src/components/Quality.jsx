@@ -6,7 +6,7 @@ export default function Quality(){
     return (
         <div className="containe-lg px-xxl-5">
         <div className="row justify-content-around">
-            <div className="col-12 col-lg-3 py-5">
+            <div className="col-12 col-md-3 py-5">
                 <div className="row">
                 <div className="col-3"><img src={quality1}/></div>
                     <div className="col-8">
@@ -18,7 +18,7 @@ export default function Quality(){
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-lg-3 py-5">
+            <div className="col-12 col-md-3 py-5">
                 <div className="row">
                     <div className="col-3"><img src={quality2}/></div>
                     <div className="col-8">
@@ -30,7 +30,7 @@ export default function Quality(){
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-lg-3 py-5">
+            <div className="col-12 col-md-3 py-5">
                 <div className="row">
                     <div className="col-3"><img src={quality3}/></div>
                     <div className="col-8">

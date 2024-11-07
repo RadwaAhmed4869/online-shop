@@ -1,6 +1,6 @@
 export default function ({ image, header, paragraph, btnCaption }) {
   return (
-    <section id="minaspace" className="col-12 col-lg-6 position-relative">
+    <section id="minaspace" className="col-12 col-md-6 position-relative">
       <div className="position-absolute top-50 ms-5">
         <h2
           className="fw-bold"
