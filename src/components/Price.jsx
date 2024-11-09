@@ -41,7 +41,7 @@ const enterprisePlan = {
 export default function Price() {
   return (
     <section id="pricing" className="bg-purple bg-opacity-10 pt-4 pb-5">
-      <div className="container-lg">
+      <div className="container-lg px-xxl-5">
         <div className="text-center pt-5">
           <h2 className="fw-bold">Simple pricing for everyone</h2>
           <small className="text-muted" style={{ fontSize: "12px" }}>

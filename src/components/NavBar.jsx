@@ -5,7 +5,7 @@ import cart from "../assets/bag.png";
 export default function NavBar() {
   return (
     <nav className="navbar sticky-top bg-white navbar-expand-lg ">
-      <div className="container-lg px-lg-4">
+      <div className="container-lg">
         <button
           className="navbar-toggler"
           type="button"

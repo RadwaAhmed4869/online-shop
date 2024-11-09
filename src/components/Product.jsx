@@ -2,15 +2,16 @@ export default function Product({ product }) {
   return (
     <div className="col col-md-6 col-lg-4 col-xxl-3">
       <img
-        className="p-4 rounded-5"
+        className="mb-3 rounded-4"
         src={product.image}
-        height="70%"
+        height="67%"
+        // style={{ width: "fit-content", height: "fit-content" }}
         // width="297px"
       ></img>
-      <p className="fw-bold" style={{ fontSize: "15px" }}>
+      <p className="fw-bold">
         {product.title}
       </p>
-      <p className="fw-bold" style={{ fontSize: "15px" }}>
+      <p className="fw-bold">
         {product.price}
       </p>
     </div>

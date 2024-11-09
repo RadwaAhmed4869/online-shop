@@ -11,9 +11,9 @@ export default function Card({ children, plan, btnStyles, shadow = false }) {
   }
 
   return (
-    <div className="col-10 col-sm-6 col-lg-4 px-xxl-5">
+    <div className="col-10 col-sm-6 col-lg-4">
       <div className={cardClasses}>
-        <div className="card-body text-center p-4">
+        <div className="card-body text-center p-md-4">
           <div className="pb-4 d-flex flex-row-reverse">{children}</div>
           <h4 className="card-title fs-6">{plan.name}</h4>
           <div className=" my-4">
