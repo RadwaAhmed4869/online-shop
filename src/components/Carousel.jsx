@@ -20,7 +20,7 @@ export default function Carousel() {
           We provide support for more than 15K+ Businesses.
         </p>
         <div id="reviewCarousel" className="carousel slide">
-          <ol className="carousel-indicators">
+          {/* <ol className="carousel-indicators">
             <button
               type="button"
               data-bs-target="#reviewCarousel"
@@ -36,7 +36,7 @@ export default function Carousel() {
               className="rounded-circle bg-dark"
               aria-label="Slide 2"
             ></button>
-          </ol>
+          </ol> */}
 
           <div className="carousel-inner">
             <div className="carousel-item active">
