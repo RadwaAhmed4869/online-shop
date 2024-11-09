@@ -1,5 +1,5 @@
 import brandLogo from "../assets/mina-space.png";
-import footer from "../assets/footer.png";
+import footer from "../assets/footer.svg";
 
 export default function () {
   return (

@@ -6,7 +6,7 @@ export default function Header(){
     return (
     <header className="pt-2 bg-light">
         <div className="container-lg">
-          <div className="d-flex flex-wrap justify-content-between">
+          <div className="d-flex flex-wrap gap-1 justify-content-center justify-content-sm-between">
             <ul className="nav list-unstyled d-flex gap-1">
                 <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-twitter"></i></a></li>
                 <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-facebook"></i></a></li>
@@ -14,12 +14,12 @@ export default function Header(){
                 <li className="ms-3"><a className="text-line" href="#"><i className="bi bi-youtube"></i></a></li>
             </ul>
             
-            <div className="d-flex gap-1 align-items-baseline">
+            <div className="d-flex gap-1 align-items-baseline pt-1">
                 <img src={fireHeading} height="18px" width="18px"></img>
                 <p className="fw-bold">Free shipping on all U.S. orders $50+</p>
             </div>
     
-            <div className="text-end">
+            <div className="text-end pb-2 pb-sm-0">
               <button type="button" className="btn btn-sm px-3 fw-bold">Login</button>
               <button type="button" className="btn btn-sm bg-dark text-white px-3">Sign-up</button>
             </div>
