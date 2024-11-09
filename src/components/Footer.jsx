@@ -5,7 +5,7 @@ export default function () {
   return (
     <section style={{ backgroundColor: "#F5F5F5", lineHeight: "1.7rem" }}>
       <div className="container-lg bg-muted">
-        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 px-5 pt-5 my-4 justify-content-between">
+        <footer className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 px-5 pt-5 my-4 justify-content-between">
           <div className="col mb-3">
             <img src={brandLogo} className="my-3" height="28px"></img>
             <ul className="nav flex-column">
@@ -106,16 +106,7 @@ export default function () {
                 </a>
               </li>
               <li className="nav-item my-2">
-                <div className="shadow-sm rounded input-group mb-3">
-                  <input
-                    type="text"
-                    placeholder="Your email address"
-                    className="form-control border-0 text-body-secondary"
-                    id="newsletter-input"
-                    style={{ fontSize: "12.5px" }}
-                  />
-                  <button className="btn" type="button"></button>
-                </div>
+                <EmailInput />
               </li>
             </ul>
           </div>
@@ -130,5 +121,23 @@ export default function () {
         </div>
       </div>
     </section>
+  );
+}
+
+function EmailInput() {
+  return (
+    <div className="input-group my-2 position-relative">
+      <input
+        type="text"
+        placeholder="Your email address"
+        className="form-control border-0 shadow-sm rounded text-body-secondary  py-2"
+        id="newsletter-input"
+        style={{ fontSize: "12.5px" }}
+      />
+      <i
+        className="position-absolute bi bi-arrow-right text-black py-1 px-3"
+        style={{ right: "0" }}
+      ></i>
+    </div>
   );
 }

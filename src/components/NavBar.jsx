@@ -4,8 +4,12 @@ import cart from "../assets/bag.png";
 
 export default function NavBar() {
   return (
-    <nav className="navbar sticky-top bg-white navbar-expand-lg ">
+    <nav className="navbar sticky-top bg-white navbar-expand-lg">
       <div className="container-lg">
+        <a className="navbar-brand d-lg-none" href="#">
+          <img className="mb-2" src={brandLogo} height="42px"></img>
+        </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -17,6 +21,7 @@ export default function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -102,22 +107,18 @@ export default function NavBar() {
             </li>
           </ul>
 
-          <a className="navbar-brand align-items-center" href="#">
+          <a
+            className="navbar-brand d-none d-lg-block align-items-center"
+            href="#"
+          >
             <img className="mb-2" src={brandLogo} height="42px"></img>
           </a>
 
-          <form className="d-flex ms-auto" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
+          <SearchInput />
 
-          <ul className="navbar-nav mb-2 mb-lg-0 gap-3">
+          <ul className="navbar-nav flex-row mt-4 mt-lg-0 mb-3 mb-lg-0 gap-4 gap-lg-3">
             <li className="nav-item">
-              <a className="nav-link position-relative" href="#">
+              <a className="nav-link position-relative d-inline-block" href="#">
                 <img src={star} style={{ width: "20px", height: "20px" }} />
                 <p
                   className="position-absolute rounded-circle text-white bg-primary text-center"
@@ -134,7 +135,7 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link position-relative" href="#">
+              <a className="nav-link position-relative d-inline-block" href="#">
                 <img src={cart} style={{ width: "20px", height: "20px" }} />
                 <p
                   className="position-absolute rounded-circle text-white bg-primary text-center"
@@ -154,5 +155,23 @@ export default function NavBar() {
         </div>
       </div>
     </nav>
+  );
+}
+
+function SearchInput() {
+  return (
+    <form className="d-flex ms-auto pe-2 position-relative" role="search">
+      <input
+        type="search"
+        placeholder="Search..."
+        aria-label="Search"
+        className="form-control rounded border-2 text-body-secondary  px-5 py-2"
+        style={{ fontSize: "12.5px" }}
+      />
+      <i
+        className="position-absolute bi bi-search text-black py-2 px-3"
+        style={{ left: "0" }}
+      ></i>
+    </form>
   );
 }
