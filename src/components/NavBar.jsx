@@ -90,7 +90,7 @@ export default function NavBar() {
             <li className="nav-item">
               <a
                 className="nav-link text-uppercase fw-bold"
-                href="#"
+                href="#reviews"
                 style={{ fontSize: "11.5px" }}
               >
                 Blog
@@ -99,7 +99,7 @@ export default function NavBar() {
             <li className="nav-item">
               <a
                 className="nav-link text-uppercase fw-bold"
-                href="#"
+                href="#footer"
                 style={{ fontSize: "11.5px" }}
               >
                 Contact

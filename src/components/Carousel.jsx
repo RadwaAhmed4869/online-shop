@@ -5,7 +5,7 @@ import backgroundImage from "../assets/cbg.png";
 
 export default function Carousel() {
   return (
-    <div
+    <section id="reviews"
       className="py-5"
       style={{
         backgroundImage: `url(${backgroundImage})`,
@@ -72,6 +72,6 @@ export default function Carousel() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

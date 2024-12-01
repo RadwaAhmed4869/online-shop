@@ -3,7 +3,7 @@ import footer from "../assets/footer.svg";
 
 export default function () {
   return (
-    <section style={{ backgroundColor: "#F5F5F5", lineHeight: "1.7rem" }}>
+    <section id="footer" style={{ backgroundColor: "#F5F5F5", lineHeight: "1.7rem" }}>
       <div className="container-lg bg-muted">
         <footer className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 px-5 pt-5 my-4 justify-content-between">
           <div className="col mb-3">
